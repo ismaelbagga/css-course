@@ -1,21 +1,16 @@
-body  {
-    background-color: rgb(227, 227, 227);
-}
+p {
+    /* 15px left/right/top/bottom */
+    padding: 15px; 
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 30px;
 
 
-.first-box {
-    background-color: rebeccapurple;
-    /* border: 2px solid  black; */
-    border-width: 2px ;
-    border-style: solid;
-    border-color: black;    
-}
-
-.second-box {
-    background-color: aqua;
-    /* border: 2px solid  black; */
-    border-right-width: 2px ;
-    border-right-style: solid;
-    border-right-color: black;    
+/*         top   right bottom left   */
+    padding: 10px 20px  15px   30px;
+/*         top/bottom left/right */
+    padding: 20px      20px;
 
 }
