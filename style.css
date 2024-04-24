@@ -1,50 +1,21 @@
-body   {
-    background-color: rgb(35, 195, 160);
-
-}
-
-h1 , h2 {
-    color : rgb(128, 3, 3) 
+body  {
+    background-color: rgb(227, 227, 227);
 }
 
 
-#para >  p   {
-    background-color: yellow;
+.first-box {
+    background-color: rebeccapurple;
+    /* border: 2px solid  black; */
+    border-width: 2px ;
+    border-style: solid;
+    border-color: black;    
 }
 
-
-
-#para >  p > i {
-    background-color: rgb(35, 195, 160)
-}
-
-.test {
-    color : gold ;
-    background-color: black;
-}
-
-th {
-    color : green
-}
-
-td {
-    color : blue
-}
-
-
-#yg + li  {
-    color : rgb(25, 235, 221) 
-}
-
-
-#contact >  ul > li:nth-child(2) > a {
+.second-box {
     background-color: aqua;
-}
+    /* border: 2px solid  black; */
+    border-right-width: 2px ;
+    border-right-style: solid;
+    border-right-color: black;    
 
-#sc {
-    background-color: aqua;
-}
-#FOOT {
-    background-color: #0000ff;
-  
 }
